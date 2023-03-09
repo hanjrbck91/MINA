@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    position:fixed;
+    z-index: 2;
+   
+}
+.layer-1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(69, 14, 93);
+    border-color: transparent;
+}
+.heading{
+    font-size: 6em;
+    
+}
+.layer-2-bg-img {
+    width: 100%;
+    background-image:url("Rectangle-YZ9P6kWjMnUBNL6W.webp");
+    background-position: 0%;
+    height:50rem;
+    background-size: cover;
+    background-position: center center;
+}
+/*
+.h1-layer-2 h1{
+font-size:7vw;
+} */
+.ly3-heading{
+    height: 10rem;
+    font-size: 3rem;
+}
+.layer-4-bg-img {
+    width: 100%;
+    background-image:url("second\ background\ img.webp");
+    height:50rem;
+    background-size: cover;
+    background-position: center center;
+}
+.buttoncard-ly-2{
+    background-color: rgb(48, 13, 81);
+}
+.layer-5-bg-img {
+    width: 100%;
+    background-image:url("sign\ up\ for\ email.webp");
+    height:50rem;
+    background-size: cover;
+    background-position: center center;
+}
+.email{
+    width:46vw;
+    height:3.125rem;
+    color: rgb(161, 161, 161);
+    border-color: transparent;
+}
+.button-ly-5{
+background-color: rgb(76, 31, 89);
+}
+.footer{
+    background-color:rgb(167, 167, 167);
+}
+@media(max-width: 768px){
+.headingtext{
+    font-size:60px;
+}
+}
+@media(min-width: 767px){
+    .headingtext{
+        font-size:120px;
+    }
+    }
